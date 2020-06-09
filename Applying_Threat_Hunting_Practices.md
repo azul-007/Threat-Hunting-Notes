@@ -1,10 +1,10 @@
 - [Threat Hunt Checklist](#threat-hunt_checklist)
-- [Prepare and Execute Threat Hunting](#prepare-and-execute-threat-hunting)
-- [Observe a potential adversary](#observe-a-potential-adversary)
-- [Leverage strong egress detection](#leverage-strong-egress-detection)
-- [Monitor Privileged Accounts](#monitor-privileged-accounts)
-- [Account Life Cycle](#account-life-cycle)
-- [Newly Registered Domains](#newly-registered-domains)
+  - [Prepare and Execute Threat Hunting](#prepare-and-execute-threat-hunting)
+  - [Observe a potential adversary](#observe-a-potential-adversary)
+  - [Leverage strong egress detection](#leverage-strong-egress-detection)
+  - [Monitor Privileged Accounts](#monitor-privileged-accounts)
+  - [Account Life Cycle](#account-life-cycle)
+  - [Newly Registered Domains](#newly-registered-domains)
 
 # Threat Hunt Checklist
 
