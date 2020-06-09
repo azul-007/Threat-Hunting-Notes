@@ -58,3 +58,6 @@ their primary workstation, maybe a training computer, secondary PC or a tablet/s
 A few IPs visible externally to the Citrix site. And a few internal addresses, such as their primary workstation, the training room, and maybe a conference room. Windows 2008 and forward records the source IP and/or source system name when someone logs in via RDP, or in the case of a domain controller, logs in locally and is authenticated by the domain. You can run a report, get the data in CSV, load it up in Excel and create a pivot table. Then sort in descending order to see if anyone logs in from more than a few addresses.
 
 # Command and Control Detection
+Users browsing habitsdo not generally have regular, definable heartbeat access patterns and have a significantly higher ratio of data received from a web server as opposed to the amount sent by a browser.
+
+C&C communications patterns have a definable heartbeat - they pulse, beacon or communcate following a regular pattern.
