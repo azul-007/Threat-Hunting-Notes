@@ -7,6 +7,7 @@
   - [Newly Registered Domains](#newly-registered-domains)
 - [Hunting Historical Data Based on Current Intel and Alarms](#hunting-historical-data-based-on-current-intel-and-alarms)
 - [Execssive or Multiple Source IPs for User Logins](#execssive-or-multiple-source-ips-for-user-logins)
+- [Command and Control Detection](#command-and-control-detection)
 
 # Threat Hunt Checklist
 
@@ -46,7 +47,14 @@ PulledPork to update the rule base and the NIDS will be able to detect new patte
 
 Take conditions that are updated in the daily rule update feed, and then reprocess the last 3 to 7 days of PCAP data or another appropriate data source.
 
-**Example**
+**Example:**
 If a malicious IP is ID'd, compare that IP to recent firewall or Bro connection logs. Get the DNS name, assuming DNS logs, sift through and find systems that queried for that domain name or compare newly indefinite DNS names with recent proxy server logs.
 
 # Execssive or Multiple Source IPs for User Logins
+A users account is often used from just a few source addresses - usually two or three. For a desktop user, the source IP is
+their primary workstation, maybe a training computer, secondary PC or a tablet/smartphone.
+
+**Example:**
+A few IPs visible externally to the Citrix site. And a few internal addresses, such as their primary workstation, the training room, and maybe a conference room. Windows 2008 and forward records the source IP and/or source system name when someone logs in via RDP, or in the case of a domain controller, logs in locally and is authenticated by the domain. You can run a report, get the data in CSV, load it up in Excel and create a pivot table. Then sort in descending order to see if anyone logs in from more than a few addresses.
+
+# Command and Control Detection
