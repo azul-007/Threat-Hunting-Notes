@@ -5,6 +5,8 @@
   - [Monitor Privileged Accounts](#monitor-privileged-accounts)
   - [Account Life Cycle](#account-life-cycle)
   - [Newly Registered Domains](#newly-registered-domains)
+- [Hunting Historical Data Based on Current Intel and Alarms](#hunting-historical-data-based-on-current-intel-and-alarms)
+- [Execssive or Multiple Source IPs for User Logins](#execssive-or-multiple-source-ips-for-user-logins)
 
 # Threat Hunt Checklist
 
@@ -37,3 +39,14 @@
 
 ## Newly Registered Domains
 * Pull the list of domains at 1am and run the prior days queried daomins against this list from your proxy or URL filter to determine if a user successfully connected to one of these.
+
+# Hunting Historical Data Based on Current Intel and Alarms
+Analyzing prior period data can trigger analysis for yesterday or the prior week in the condition existed. Run a script like
+PulledPork to update the rule base and the NIDS will be able to detect new patterns.
+
+Take conditions that are updated in the daily rule update feed, and then reprocess the last 3 to 7 days of PCAP data or another appropriate data source.
+
+**Example**
+If a malicious IP is ID'd, compare that IP to recent firewall or Bro connection logs. Get the DNS name, assuming DNS logs, sift through and find systems that queried for that domain name or compare newly indefinite DNS names with recent proxy server logs.
+
+# Execssive or Multiple Source IPs for User Logins
