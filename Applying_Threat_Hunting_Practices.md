@@ -89,3 +89,18 @@ improve disaster recovery operations, or support DNS round robin. If DNS to IP r
 change to a new IP or a new autonomous system identified network in an unexplainable way, then the DNS name is likely
 involved in botnets using a FastFlux technique.
 ````
+
+**Criteria:** DNS Queries, new names or very low frequency DNS names and DGA
+````
+A top one million DNS query list can be used to great effect as a reduction tool. Two examples are the Majestic list 
+or the Cisco Umbrella list. 
+````
+
+
+**Criteria:** DNS queries to Dynamic DNS Providers
+````
+For most businesses, the use of Dynamic DNS will be minimal at best. Review queries answered by DDNS providers.
+You will beed a DDNS provider list. 
+````
+
+## Application Content Based C&C Detection
