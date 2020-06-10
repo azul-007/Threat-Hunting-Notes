@@ -8,7 +8,7 @@
 - [Hunting Historical Data Based on Current Intel and Alarms](#hunting-historical-data-based-on-current-intel-and-alarms)
 - [Execssive or Multiple Source IPs for User Logins](#execssive-or-multiple-source-ips-for-user-logins)
 - [Command and Control Detection](#command-and-control-detection)
-  - [Network Based C&C Detection](#network-based-c&c-detection)
+  - [Network Based C2 Detection](#network-based-c2-detection)
   - [Application Content Based C&C Detection](#application-content-based-c&c-detection)
 
 # Threat Hunt Checklist
