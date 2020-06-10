@@ -9,7 +9,7 @@
 - [Execssive or Multiple Source IPs for User Logins](#execssive-or-multiple-source-ips-for-user-logins)
 - [Command and Control Detection](#command-and-control-detection)
   - [Network Based C2 Detection](#network-based-c2-detection)
-  - [Application Content Based C&C Detection](#application-content-based-c&c-detection)
+  - [Application Content Based C2 Detection](#application-content-based-c2-detection)
 
 # Threat Hunt Checklist
 
