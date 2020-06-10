@@ -104,3 +104,13 @@ You will beed a DDNS provider list.
 ````
 
 ## Application Content Based C2 Detection
+**Criteria:** File Tranmissions
+````
+FTP and HTTP/S upload type file transfers are a normal occurrence for some segment of the population - both user 
+workstations and servers. When an internal IP sends data significantly above its threshold, then the 
+destination should be checked and possibly the user queried.
+
+As a secondary indicator, end users are more likely to send data via FTP, SFTP, or HTTP/S uploads during working hours, 
+while batch processes are more frqequent overnight. Note that SFTP is an extensino to SSH. While it may look 
+like remote access there will be a distinct difference in communication volume by direction.
+````
