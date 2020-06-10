@@ -65,7 +65,17 @@ Users browsing habitsdo not generally have regular, definable heartbeat access p
 C&C communications patterns have a definable heartbeat - they pulse, beacon or communcate following a regular pattern. The botnets often use the following to communicate back to their servers: encrypted networks, traffic embedded within ICMP payloads, DNC payloads, artificially generated DNS node names, P2P file swapping networks, gmail exchange and other instant messaging programs. Domain fronting is a more sophisticated techniqued, where 
 
 ## Network Based C&C Detection
-Criteria: Well known IP to Site Relationships
+**Criteria:** Well known IP to Site Relationships
 ````
 Explanation: Filtering out IPs from a list of the top one million site list
+````
+
+**Criteria:** IP Reputation
+````
+Explanation: New site to IP relationship: A site registered within the last 7 days. A newly observed IP for your site. Sit to IP changes. Most sites don't change their IPs frequently.
+````
+
+**Criteria:** IP Validated Poor Reputation
+````
+Several threat analysys services such as OTX monitor IPs for malicious activity and maintain lists of IP addresses known to be involved in malicious activity.
 ````
