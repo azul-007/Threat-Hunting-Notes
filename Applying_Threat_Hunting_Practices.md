@@ -10,6 +10,8 @@
 - [Command and Control Detection](#command-and-control-detection)
   - [Network Based C2 Detection](#network-based-c2-detection)
   - [Application Content Based C2 Detection](#application-content-based-c2-detection)
+- [Lateral Movement or Lateral Traversal](#lateral-movement-or-lateral-traversal)
+
 
 # Threat Hunt Checklist
 
@@ -125,3 +127,4 @@ to communicate. Violations to these rules may indicate C&C usage, or others issu
 tunneling capabilities built that can use a data field or a normal communication capability for hidden communication. Or
 outbound traffic carried over 443/TCP which is not HTTP and which did not begin with a TLS exchange.
 ````
+# Lateral Movement or Lateral Traversal
