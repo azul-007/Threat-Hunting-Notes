@@ -114,3 +114,14 @@ As a secondary indicator, end users are more likely to send data via FTP, SFTP, 
 while batch processes are more frqequent overnight. Note that SFTP is an extensino to SSH. While it may look 
 like remote access there will be a distinct difference in communication volume by direction.
 ````
+**Criteria:** Protocol Violation or Mismatch
+````
+If outbound HTTP/S traffic is observed on nonstandard web server ports and a technical component can detect this protocol
+mismatch condition, it should be investigated to determine if the traffic supports a real organizational requirement.
+
+
+While these are not perfect or account for every possibility, RFCs do provide a basis for applications and network services
+to communicate. Violations to these rules may indicate C&C usage, or others issues. For example, numerous protocols have had
+tunneling capabilities built that can use a data field or a normal communication capability for hidden communication. Or
+outbound traffic carried over 443/TCP which is not HTTP and which did not begin with a TLS exchange.
+````
