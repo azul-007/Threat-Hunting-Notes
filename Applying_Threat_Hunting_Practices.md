@@ -60,4 +60,4 @@ A few IPs visible externally to the Citrix site. And a few internal addresses, s
 # Command and Control Detection
 Users browsing habitsdo not generally have regular, definable heartbeat access patterns and have a significantly higher ratio of data received from a web server as opposed to the amount sent by a browser.
 
-C&C communications patterns have a definable heartbeat - they pulse, beacon or communcate following a regular pattern.
+C&C communications patterns have a definable heartbeat - they pulse, beacon or communcate following a regular pattern. The botnets often use the following to communicate back to their servers: encrypted networks, traffic embedded within ICMP payloads, DNC payloads, artificially generated DNS node names, P2P file swapping networks, gmail exchange and other instant messaging programs. Domain fronting is a more sophisticated techniqued, where 
