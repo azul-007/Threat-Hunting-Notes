@@ -103,4 +103,4 @@ For most businesses, the use of Dynamic DNS will be minimal at best. Review quer
 You will beed a DDNS provider list. 
 ````
 
-## Application Content Based C&C Detection
+## Application Content Based C2 Detection
