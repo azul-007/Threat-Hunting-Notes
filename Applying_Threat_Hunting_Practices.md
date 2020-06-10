@@ -8,6 +8,8 @@
 - [Hunting Historical Data Based on Current Intel and Alarms](#hunting-historical-data-based-on-current-intel-and-alarms)
 - [Execssive or Multiple Source IPs for User Logins](#execssive-or-multiple-source-ips-for-user-logins)
 - [Command and Control Detection](#command-and-control-detection)
+  - [Network Based C&C Detection](#network-based-c&c-detection)
+  - [Application Content Based C&C Detection](#application-content-based-c&c-detection)
 
 # Threat Hunt Checklist
 
@@ -61,3 +63,9 @@ A few IPs visible externally to the Citrix site. And a few internal addresses, s
 Users browsing habitsdo not generally have regular, definable heartbeat access patterns and have a significantly higher ratio of data received from a web server as opposed to the amount sent by a browser.
 
 C&C communications patterns have a definable heartbeat - they pulse, beacon or communcate following a regular pattern. The botnets often use the following to communicate back to their servers: encrypted networks, traffic embedded within ICMP payloads, DNC payloads, artificially generated DNS node names, P2P file swapping networks, gmail exchange and other instant messaging programs. Domain fronting is a more sophisticated techniqued, where 
+
+# Network Based C&C Detection
+**Well known IP to Site Relationships**
+````
+Filtering out IPs from a list of the top one million site list
+````
