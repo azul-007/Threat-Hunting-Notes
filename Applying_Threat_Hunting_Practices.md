@@ -72,10 +72,20 @@ Explanation: Filtering out IPs from a list of the top one million site list
 
 **Criteria:** IP Reputation
 ````
-Explanation: New site to IP relationship: A site registered within the last 7 days. A newly observed IP for your site. Sit to IP changes. Most sites don't change their IPs frequently.
+Explanation: New site to IP relationship: A site registered within the last 7 days. 
+A newly observed IP for your site. Sit to IP changes. Most sites don't change their IPs frequently.
 ````
 
 **Criteria:** IP Validated Poor Reputation
 ````
-Several threat analysys services such as OTX monitor IPs for malicious activity and maintain lists of IP addresses known to be involved in malicious activity.
+Several threat analysys services such as OTX monitor IPs for malicious activity and maintain 
+lists of IP addresses known to be involved in malicious activity.
+````
+
+**Criteria:** Low DNS TTL and DNS to IP changes
+````
+Historically, a 24hr DNS TTL value was quite common. Today, TTLs may be arbitrarily set low for sites in order to
+improve disaster recovery operations, or support DNS round robin. If DNS to IP relationships are set low, and they
+change to a new IP or a new autonomous system identified network in an unexplainable way, then the DNS name is likely
+involved in botnets using a FastFlux technique.
 ````
