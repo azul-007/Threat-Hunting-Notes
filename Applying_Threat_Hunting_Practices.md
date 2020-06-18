@@ -1,4 +1,4 @@
-- [Threat Hunt Checklist](#threat-hunt_checklist)
+- [Threat Hunt Checklist](#threat-hunt-checklist)
   - [Prepare and Execute Threat Hunting](#prepare-and-execute-threat-hunting)
   - [Observe a potential adversary](#observe-a-potential-adversary)
   - [Leverage strong egress detection](#leverage-strong-egress-detection)
