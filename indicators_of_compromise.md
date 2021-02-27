@@ -18,10 +18,10 @@ Indicators of Attacl (IoA) differs from an IoC because IoAs focus on what an att
 | HTML or Website Query Size and Ratio Mismatches (producer to consumer)                 |               |
 | URL Hits Above Baseline|              |
 | Protocol Abuse; Mismatched Protocol to well-known Ports|               |
-|                  |               |
-|                  |               |
-|                  |               |
-|                  |               |
-|                  |               |
-|                  |               |
-|                  |               |
+| Registery (or/etc)/Filesystem Changes Outside of the Change Window                |               |
+| DNS mismatches, fail spikes, DGA queries, excessive TXT queries, rapid name to IP changes (Fastflux)                |               |
+| OS Changes of significance outside of the change window|               |
+| Table/Mobile/Phablet or other IoT Device Profile Changes|               |
+| Unexplained Disk Usage/Volume Changes                 |               |
+| Web Browsing that does not Match Human Page Consumtion speed, click rate, and habits                 |               |
+| Suspicious User Agents                 |               |
