@@ -11,13 +11,13 @@ Indicators of Attacl (IoA) differs from an IoC because IoAs focus on what an att
 | Account Managment Anomalies   | Central directory, designated account managers, knowledge of privileged accounts, service accounts, consistent account naming and account correlation across various systems. Cross system correlation may require a consistent attribute be added to all systems such as an employee unique identifier        |
 | Privilege Account Misue/Anomlaies.    | Inventory of privileged accounts for the directory and systems which reside in "account islands". Account islands are often application specific, and contain very valuable data.               |
 | Geographical Account Usage Patterns or Improbabilities                | VPN/Citrix logging, rules to detect "inside in use" vs. "outside detected", IP to geolocation attribution such as MaxMind's data. Source data enrichment may be required so geolocatoin can be added as data arrives|
-|                  |               |
-|                  |               |
-|                  |               |
-|                  |               |
-|                  |               |
-|                  |               |
-|                  |               |
+| Account Usage Attempts for Uknown Accounts| Robust logging across the enterprise, Auditing that records failure conditions along with a reason code, Login activity from non-AD integrated systems               |
+| Confirmed Threat Intel "hit"                  |               |
+| First Seen Binary|               |
+| Database Query Volume and Velocity Changes|               |
+| HTML or Website Query Size and Ratio Mismatches (producer to consumer)                 |               |
+| URL Hits Above Baseline|              |
+| Protocol Abuse; Mismatched Protocol to well-known Ports|               |
 |                  |               |
 |                  |               |
 |                  |               |
